@@ -1,6 +1,7 @@
 {
   "name": "nav-bar-project",
   "version": "0.1.0",
+    "homepage": "http://Fatdrfrog.github.io/nav-bar-project",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
