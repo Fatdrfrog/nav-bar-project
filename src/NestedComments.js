@@ -19,6 +19,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+//рекурсивно вызывает children
 const ListComponent = ({ comment, classes }) => {
   const nestedComments = (comment.children || []).map((comment) => {
     return (
