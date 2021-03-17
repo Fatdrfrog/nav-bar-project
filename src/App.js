@@ -1,11 +1,11 @@
 import React from "react";
 import NavBar from "./NavBar";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
-import { purple } from "@material-ui/core/colors";
+import { green } from "@material-ui/core/colors";
 
 const theme = createMuiTheme({
   status: {
-    danger: purple[1000],
+    danger: green[1000],
   },
 });
 
